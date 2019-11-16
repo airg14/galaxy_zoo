@@ -1,6 +1,6 @@
 READ ME
 
-Ce projet m'a été soumis lors d'un de mes cours sur l'intelligence artificielle et les sciences des données.
+Ce projet nous a été soumis lors d'un de nos cours sur l'intelligence artificielle et les sciences des données.
 
 Galaxy Zoo est un jeu de données qui provient d'un projet collaboratif. En répondant à une suite de question sur des images
 de galaxies sur leur plateforme on ajoute des données au dataset. Le but est de déterminer si une galaxie est de type 
@@ -13,3 +13,7 @@ pour trois seuils différents, nous avons extrait les composantes RGB du pixel c
 de détection de contour pour estimer le perimètre de la galaxie et extraire cette donnée.
 
 Notre meilleur résultat est de 84% après un test de validation croisée.
+
+On retrouve le code pour l'extraction des features dans le fichier "TP1_GTI_extract.ipynb" et le code pour le machine
+learning et l'analyse de nos features dans le fichier "TP1_GTI_learning.ipynb". Notre rapport se situe dans le fichier
+"GTI770-TP1-Questions_WIP.ipynb".
